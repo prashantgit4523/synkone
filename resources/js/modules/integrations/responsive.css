@@ -1,0 +1,27 @@
+.clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.clamp:hover {
+    display: block;
+}
+
+.clamp-1 {
+    -webkit-line-clamp: 1;
+}
+
+.clamp-3 {
+    -webkit-line-clamp: 3;
+}
+
+.badge-top-right {
+    position: absolute;
+    top: 1.4rem;
+    right: 1.2rem;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+}

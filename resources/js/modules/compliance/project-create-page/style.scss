@@ -1,0 +1,12 @@
+    #project-create{
+        .react-select__control,.react-select__option{
+            cursor: pointer !important;
+        }
+        .help-button-project{
+            opacity: 50%;
+        }
+        .help-button-project:hover{
+            opacity: 100%;
+        }
+    }
+    

@@ -1,0 +1,137 @@
+#implemented_controls_page{
+    /* react select */
+/* react select */
+.top-control {
+	background-color: #f4f5f7;
+}
+.react-collapsible-theme {
+	.react-collapsible {
+		th {
+			&:first-child {
+				width: 180px !important;
+			}
+			&.column-0{
+				width: 180px !important;
+			}
+			&.column-1,&.column-3,&.column-4,&.column-5,&.column-6,&.column-7{
+				width: 150px !important;
+			}
+			&.column-2,&.column-8{
+				width: 70px !important;
+			}
+			
+
+		}
+		tr {
+			&.expanded-row {
+				td {
+					overflow: visible !important;
+					white-space: normal !important;
+					overflow-wrap: break-word !important;
+				}
+			}
+		}
+	}
+}
+.react-select {
+	.react-select__option--is-selected {
+		background-color: var(--secondary-color);
+	}
+	.react-select__option--is-focused {
+		background-color: var(--bs-light);
+	}
+	.react-select__option--is-focused.react-select__option--is-selected {
+		background-color: var(--secondary-color);
+	}
+	.react-select__control {
+		cursor: pointer;
+	}
+	.react-select__option {
+		cursor: pointer;
+	}
+}
+.column-8 {
+	width: 62px;
+}
+@media (max-width: 576px) {
+	.filter-row__wrap {
+		.all-standards {
+			width: 100%;
+		}
+		.all-controlID {
+			width: 100%;
+		}
+		.all-controlName {
+			width: 100%;
+		}
+		.all-users {
+			width: 100%;
+		}
+	}
+}
+
+}
+
+.modal{
+	.react-pdf__Page__canvas{
+		width: 100% !important;
+		padding-bottom: 1rem;
+	}
+	.react-pdf__Page__annotations{
+		height: 0px;
+	}
+	.accordion-body {
+		padding: 0.5rem 0.5rem;
+	}
+}
+
+.react-pdf__Page__textContent {
+	user-select: none !important;
+}
+
+.modal-start.modal.show .modal-dialog {
+	max-width: 40% !important;
+}
+
+.accordion-body img{
+	width: 100% !important;
+    height: 100% !important;
+}
+
+.item-border-top{
+	border-top: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.icon-style{
+	color: #359f1d;
+	font-size: 18px;
+}
+
+.display-name-style{
+	margin-left: 5px;
+	margin-right: 8px;
+}
+
+.check-icon-style{
+	color: #359f1d;
+	font-size: 18px;
+	float: left;
+}
+
+.custom-icon-accordion-disable .accordion-button::after {
+	background-image: none;
+}
+.custom-icon-accordion-disable .accordion-button:not(.collapsed)::after {
+	background-image: none;
+}
+
+.custom-icon-accordion-disable .accordion-button {
+	padding-right: 0px;
+}
+.custom-icon-accordion-disable .accordion-button:not(.collapsed) {
+	padding-right: 0px;
+}
+
+.download-button {
+	z-index: 9999;
+}

@@ -1,0 +1,57 @@
+.AppDataTable {
+  tbody td:hover {
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+
+  thead {
+    border: 0;
+    color: #555;
+  }
+
+  thead > tr {
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #e0e4ea;
+    color: #555;
+    font-size: 0.875rem;
+  }
+
+  tbody td {
+    white-space: nowrap !important;
+    text-overflow: ellipsis;
+    max-width: 150px !important;
+  }
+
+  tbody tr:hover {
+    color: #6c757d;
+    background-color: #f1f5f7;
+  }
+
+  .mb-1-2 {
+    margin-bottom: 1.2rem;
+  }
+
+  tbody tr:last-child > td {
+    border: 0 !important;
+  }
+}
+
+#datatable__info {
+  font-weight: 600;
+}
+
+.page-item .page-link {
+  line-height: 1.25rem;
+}
+
+.page-item {
+  background-color: transparent !important;
+}
+
+.dt-bg-primary {
+  background-color: transparent;
+}
+
+.dt-bg-secondary {
+  background-color: #e9edf0;
+}

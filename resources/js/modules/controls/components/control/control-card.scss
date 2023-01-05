@@ -1,0 +1,49 @@
+#control-card-kpi {
+    .card-footer{
+        min-height: 13rem;
+    }
+    .set-target-dropdown-menu{
+        cursor: pointer;
+    }
+
+    .title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: inherit;
+    }
+
+    .year-form-label-kpi {
+        margin:0.5rem;
+    }
+    .save-button-div-target{
+        margin-left: 1rem;margin-right: 1rem;margin-top: -0.5rem;
+    }
+
+    .custom-save-button{
+        width:6rem;
+        margin-left: 50%;
+    }
+
+    .desc {
+        padding-left: 6px;
+    }
+
+    /* hide number input arrow */
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+    -moz-appearance: textfield;
+    }
+
+
+
+    
+}
+

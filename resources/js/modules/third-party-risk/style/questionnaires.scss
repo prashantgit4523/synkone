@@ -1,0 +1,57 @@
+#questionnaire {
+    .title-heading {
+        p {
+            margin-bottom: 5px;
+        }
+    }
+    .m-30 {
+        margin: 30px 0;
+    }
+}
+.btn-group {
+    input[type=radio] {
+        display: none !important;
+    }
+    .btn {
+        border: 1px solid #e9ebec;
+        background-color: #f1f5f7;
+        color: #414141;
+        cursor: pointer;
+    }    
+   
+}
+
+ol {
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+.disabled-btn {
+    background: #eee !important;
+    border: 1px solid #ced4da !important;
+    outline: 0;
+    color: #6c757d !important;
+    opacity: 0.65;
+}
+.disabled-btn:hover {
+    cursor: no-drop !important;
+    background-color: #f1f5f7 !important;
+    border: 1px solid #ced4da !important;
+}
+
+button.btn.btn-primary.disable:disabled
+{
+    pointer-events: auto !important;
+    cursor: no-drop !important;
+}
+button.btn.btn-primary.disable:disabled
+{
+    pointer-events: auto !important;
+    cursor: no-drop !important;
+}
+button.btn.btn-primary.disable:hover
+{
+    background-color: #f1f5f7 !important;
+    border: 1px solid #ced4da !important;
+}

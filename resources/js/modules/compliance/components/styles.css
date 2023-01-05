@@ -1,0 +1,41 @@
+.bulk-assignment__container {
+    position: sticky;
+    background-color: #fff;
+    top: 160px;
+    padding: 15px 10px;
+    z-index: 2;
+    transition: all .2s;
+    animation: fade-in .4s;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    80%{
+        opacity: 1;
+    }
+}
+
+.shadowed {
+    box-shadow: 0 6px 6px -6px rgba(0, 0, 0, .2);
+}
+
+@media screen and (max-width: 1199px) {
+    .bulk-assignment__container {
+        top: 244px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .bulk-assignment__container {
+        top: 70px;
+    }
+}
+
+.applicable__checkbox {
+    width: 40px;
+    margin-left: 4px;
+    margin-top: 6px;
+}

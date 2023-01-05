@@ -1,0 +1,25 @@
+.popover {
+    border: none !important;
+}
+
+.custom-dropdown {
+    padding: 0.3rem;
+    box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+    animation-name: DropDownSlide;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    min-width: 10rem;
+    margin: 0;
+    font-size: 0.875rem;
+    color: #6c757d;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e9f0f4;
+    border-radius: 0.25rem;
+}
+
+.popover-arrow {
+    display: none !important;
+}

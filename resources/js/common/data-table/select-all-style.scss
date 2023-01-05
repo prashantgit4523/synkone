@@ -1,0 +1,19 @@
+#select_all_datarow{
+    .select-all {
+        margin-left: 15px;
+		svg {
+			height: 18px !important;
+			width: 18px !important;
+			cursor: pointer;
+		}
+		input {
+			display: none;
+		}
+		label {
+			margin: -22px 48px !important;
+			&::before {
+				cursor: pointer;
+			}
+		}
+	}
+}
