@@ -33,7 +33,7 @@
         "@hookform/resolvers": "^2.8.1",
         "@inertiajs/inertia": "^0.10.1",
         "@inertiajs/inertia-react": "^0.7.1",
-        "@reduxjs/toolkit": "^1.6.1",
+        "@reduxjs/toolkit": "^1.9.1",
         "apexcharts": "^3.29.0",
         "content-disposition-header": "^0.6.0",
         "date-fns": "^2.28.0",
