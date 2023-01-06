@@ -30,7 +30,7 @@
     "dependencies": {
         "@fullcalendar/daygrid": "4.4.2",
         "@fullcalendar/react": "4.4.2",
-        "@hookform/resolvers": "^2.8.1",
+        "@hookform/resolvers": "^2.9.10",
         "@inertiajs/inertia": "^0.10.1",
         "@inertiajs/inertia-react": "^0.7.1",
         "@reduxjs/toolkit": "^1.6.1",
